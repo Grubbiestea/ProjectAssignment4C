@@ -1,9 +1,9 @@
 {
   "rewrites": [
-    { "src": "/home", "dest": "/" },
-    { "src": "/videos", "dest": "/" },
-    { "src": "/morevideos", "dest": "/" },
-    { "src": "/novideos", "dest": "/" },
-    { "src": "/ratelastvideo", "dest":  "/"}
+    { "source": "/home", "destination": "/" },
+    { "source": "/videos", "destination": "/" },
+    { "source": "/morevideos", "destination": "/" },
+    { "source": "/novideos", "destination": "/" },
+    { "source": "/ratelastvideo", "destination":  "/"}
   ]
 }
