@@ -1,0 +1,9 @@
+{
+  "routes": [
+    { "src": "/home", "dest": "/" },
+    { "src": "/videos", "dest": "/" },
+    { "src": "/morevideos", "dest": "/" },
+    { "src": "/novideos", "dest": "/" },
+    { "src": "/ratelastvideo", "dest":  "/"}
+  ]
+}

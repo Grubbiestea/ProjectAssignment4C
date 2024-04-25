@@ -33,10 +33,6 @@ const router = createBrowserRouter([
         element: <NoVideos />,
     },
     {
-        path: "/novideos",
-        element: <NoVideos />,
-    },
-    {
         path: "/ratelastvideo",
         element: <RateLastVideo />,
     },
