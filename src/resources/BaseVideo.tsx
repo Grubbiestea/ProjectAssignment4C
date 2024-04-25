@@ -8,7 +8,14 @@ function BaseVideo(props: { videoURL: any; instructions: any; }) {
     const {videoURL, instructions} = props;
     const navigate = useNavigate();
     return (
-        <div style={{border: "2px solid black", padding: "20px", borderRadius: "10px", width: "fit-content", margin: "auto", marginTop: "0px", backgroundColor:"#013D7C"}}>
+        <div style={{
+            border: "2px solid black",
+            padding: "20px",
+            borderRadius: "10px",
+            width: "fit-content",
+            margin: "auto",
+            marginTop: "0px",
+            backgroundColor:"#013D7C"}}>
             <HomeAndBack></HomeAndBack>
             <div style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "688px", width: "375px"}}>
                 <div>
