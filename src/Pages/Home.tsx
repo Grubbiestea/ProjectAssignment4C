@@ -64,7 +64,7 @@ function Home() {
 
     return (
         <div className="outer-container" style={{backgroundColor: "#013D7C"}}>
-            <div style={{marginTop: "25px", position:"absolute", marginLeft:"0px"}}>
+            <div style={{marginTop: "-650px", position:"absolute", marginLeft:"-325px"}}>
                 <FaBars size={24} color="#fff" onClick={toggleMenu}/>
                 {menuOpen && (
                     <div className="menu" style={{

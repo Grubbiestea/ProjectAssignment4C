@@ -6,7 +6,7 @@
     height: 500px; /* Adjust the height as needed */
     margin-top: 10px;
     position: relative;
-    width: 500px;
+    width: 200px;
 }
 
 .outer-container {
@@ -18,5 +18,6 @@
     margin: auto; /* Center the container */
     width: fit-content;
     margin-top: 0px; /* Add some space between the box and the keyboard image */
-
+    display:flex;
+    flex-direction: column;
 }
