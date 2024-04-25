@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     height: 500px; /* Adjust the height as needed */
-    margin-top: 10px
+    margin-top: 10px;
+    position: relative;
 }
 
 .outer-container {
