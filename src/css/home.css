@@ -10,6 +10,8 @@
 .outer-container {
     border: 2px solid black;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
     padding: 0px;
     margin: auto; /* Center the container */
     width: fit-content;
